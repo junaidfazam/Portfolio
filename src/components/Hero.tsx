@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-white shadow-2xl bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center">
               {/* Replace the src below with your actual photo */}
               <img 
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                src="public/junaid_photo.jpg" 
                 alt="Professional headshot" 
                 className="w-full h-full object-cover"
               />
