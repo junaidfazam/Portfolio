@@ -67,11 +67,11 @@ const About = () => {
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                  Experience with Python and R for data analysis
+                  Experience with Python and SQL for data analysis
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                  Strong background in statistical analysis and modeling
+                  Strong background in data engineering and modeling
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>

@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Email</h4>
-                  <p className="text-blue-100">contact@datavizpro.com</p>
+                  <p className="text-blue-100">junaidfazam@gmial.com</p>
                 </div>
               </div>
 
@@ -65,7 +65,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Phone</h4>
-                  <p className="text-blue-100">+1 (555) 123-4567</p>
+                  <p className="text-blue-100">+1 (343) 558-4889</p>
                 </div>
               </div>
 
@@ -75,7 +75,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Location</h4>
-                  <p className="text-blue-100">New York, NY</p>
+                  <p className="text-blue-100">Toronto, ON</p>
                 </div>
               </div>
             </div>
@@ -84,15 +84,15 @@ const Contact = () => {
             <div className="pt-8">
               <h4 className="text-white font-semibold mb-4">Follow Me</h4>
               <div className="flex space-x-4">
-                <a href="#" className="bg-blue-600 p-3 rounded-lg hover:bg-blue-700 transition-colors duration-300">
+                <a href="https://www.linkedin.com/in/junaidfazam007" target="_blank" rel="noopener noreferrer" className="bg-blue-600 p-3 rounded-lg hover:bg-blue-700 transition-colors duration-300">
                   <Linkedin className="text-white" size={20} />
                 </a>
-                <a href="#" className="bg-gray-700 p-3 rounded-lg hover:bg-gray-600 transition-colors duration-300">
+                <a href="https://www.github.com/junaidfazam" target="_blank" rel="noopener noreferrer" className="bg-gray-700 p-3 rounded-lg hover:bg-gray-600 transition-colors duration-300">
                   <Github className="text-white" size={20} />
                 </a>
-                <a href="#" className="bg-cyan-500 p-3 rounded-lg hover:bg-cyan-600 transition-colors duration-300">
+                {/*<a href="#" className="bg-cyan-500 p-3 rounded-lg hover:bg-cyan-600 transition-colors duration-300">
                   <Twitter className="text-white" size={20} />
-                </a>
+                </a> */}  
               </div>
             </div>
           </div>

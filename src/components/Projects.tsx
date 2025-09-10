@@ -5,36 +5,36 @@ const Projects = () => {
   const projects = [
     {
       title: "Sales Performance Dashboard",
-      description: "Interactive Power BI dashboard tracking KPIs across multiple regions with real-time data integration and automated alerts for performance deviations.",
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tech: ["Power BI", "SQL Server", "DAX", "Power Automate"],
+      description: "Interactive Tableau dashboard tracking KPIs across multiple regions with real-time data integration",
+      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tech: ["Tableau", "SQL", "Excel", "Data Modeling"],
       icon: <BarChart3 className="text-blue-600" size={32} />,
       metrics: "Increased decision speed by 40%"
     },
+    // {
+    //   title: "Customer Analytics Platform",
+    //   description: "Comprehensive Tableau solution analyzing customer behavior patterns, churn prediction, and segmentation with machine learning integration.",
+    //   image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   tech: ["Tableau", "Python", "PostgreSQL", "R"],
+    //   icon: <TrendingUp className="text-green-600" size={32} />,
+    //   metrics: "Reduced churn by 25%"
+    // },
     {
-      title: "Customer Analytics Platform",
-      description: "Comprehensive Tableau solution analyzing customer behavior patterns, churn prediction, and segmentation with machine learning integration.",
-      image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tech: ["Tableau", "Python", "PostgreSQL", "R"],
-      icon: <TrendingUp className="text-green-600" size={32} />,
-      metrics: "Reduced churn by 25%"
-    },
-    {
-      title: "Financial Reporting Suite",
-      description: "Automated monthly and quarterly financial reports with dynamic forecasting models and variance analysis for executive leadership.",
-      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tech: ["Excel VBA", "Power Query", "SQL", "Power BI"],
+      title: "Retail Bazar Data Pipeline",
+      description: "End-to-end PySpark ETL pipeline ingesting data from AWS S3/local, validating schemas, staging in MySQL, and delivering Customer & Sales Team data marts with top-performer analytics.",
+      image: "public/Pyspark Pipline.png",
+      tech: ["Pyspark", "Python", "AWS-S3","Mysql"],
       icon: <PieChart className="text-purple-600" size={32} />,
       metrics: "Saved 20 hours weekly"
-    },
-    {
-      title: "Operations Efficiency Tracker",
-      description: "Real-time operational dashboard monitoring production metrics, quality indicators, and resource utilization with predictive maintenance alerts.",
-      image: "https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tech: ["Power BI", "Azure IoT", "Python", "Time Series"],
-      icon: <Activity className="text-orange-600" size={32} />,
-      metrics: "Improved efficiency by 30%"
     }
+    // {
+    //   title: "Operations Efficiency Tracker",
+    //   description: "Real-time operational dashboard monitoring production metrics, quality indicators, and resource utilization with predictive maintenance alerts.",
+    //   image: "https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   tech: ["Power BI", "Azure IoT", "Python", "Time Series"],
+    //   icon: <Activity className="text-orange-600" size={32} />
+    //   //metrics: "Improved efficiency by 30%"
+    // }
   ];
 
   return (
@@ -84,7 +84,7 @@ const Projects = () => {
                     <ExternalLink size={16} />
                     <span>View Live</span>
                   </button>
-                  <button className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 font-semibold">
+                  <button href="https://www.linkedin.com/in/junaidfazam007" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 font-semibold">
                     <Github size={16} />
                     <span>Code</span>
                   </button>
