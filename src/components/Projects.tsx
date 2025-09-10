@@ -22,7 +22,7 @@ const Projects = () => {
     {
       title: "Retail Bazar Data Pipeline",
       description: "End-to-end PySpark ETL pipeline ingesting data from AWS S3/local, validating schemas, staging in MySQL, and delivering Customer & Sales Team data marts with top-performer analytics.",
-      image: "public/Pyspark Pipline.png",
+      image: "./public/Pyspark Pipline.png",
       tech: ["Pyspark", "Python", "AWS-S3","Mysql"],
       icon: <PieChart className="text-purple-600" size={32} />,
       metrics: "Saved 20 hours weekly"
