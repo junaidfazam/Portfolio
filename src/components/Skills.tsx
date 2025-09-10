@@ -1,45 +1,64 @@
 import React from 'react';
-import { BarChart, Database, Code, Brain, PieChart, TrendingUp } from 'lucide-react';
+import { BarChart, Database, Code, Brain, PieChart, TrendingUp, Server, GitBranch, ShieldCheck, Users } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
-    {
-      icon: <BarChart className="text-blue-600" size={32} />,
-      title: "Data Visualization",
-      skills: ["Power BI", "Tableau", "D3.js", "Excel Advanced", "Google Data Studio"],
-      color: "blue"
-    },
-    {
-      icon: <Database className="text-green-600" size={32} />,
-      title: "Data Management",
-      skills: ["SQL Server", "MySQL", "PostgreSQL", "Azure Data Factory", "ETL Processes"],
-      color: "green"
-    },
-    {
-      icon: <Code className="text-purple-600" size={32} />,
-      title: "Programming",
-      skills: ["Python", "R", "DAX", "M Query", "JavaScript", "VBA"],
-      color: "purple"
-    },
-    {
-      icon: <Brain className="text-orange-600" size={32} />,
-      title: "Analytics",
-      skills: ["Statistical Analysis", "Predictive Modeling", "Machine Learning", "A/B Testing"],
-      color: "orange"
-    },
-    {
-      icon: <PieChart className="text-pink-600" size={32} />,
-      title: "Business Intelligence",
-      skills: ["KPI Development", "Dashboard Design", "Report Automation", "Data Mining"],
-      color: "pink"
-    },
-    {
-      icon: <TrendingUp className="text-cyan-600" size={32} />,
-      title: "Business Skills",
-      skills: ["Strategic Planning", "Stakeholder Management", "Process Optimization", "Training"],
-      color: "cyan"
-    }
-  ];
+  {
+    icon: <Database className="text-green-600" size={32} />,
+    title: "Data Engineering & ETL",
+    skills: ["Databricks (PySpark, Spark SQL)", "Azure Data Factory", "Power Query", "Advanced SQL", "DAX", "Python (Pandas, NumPy)"],
+    color: "green"
+  },
+  {
+    icon: <Server className="text-purple-600" size={32} />,
+    title: "Database & Warehousing",
+    skills: ["Snowflake", "SAP BW/4HANA", "MySQL", "Oracle", "PostgreSQL", "MS SQL Server"],
+    color: "purple"
+  },
+  {
+    icon: <BarChart className="text-blue-600" size={32} />,
+    title: "Data Visualization & BI",
+    skills: ["Tableau", "Power BI", "SAP BO", "OBIEE", "Adobe XD"],
+    color: "blue"
+  },
+  {
+    icon: <PieChart className="text-pink-600" size={32} />,
+    title: "Reporting & Dashboard Design",
+    skills: ["Wireframing", "Dashboard Development", "KPI Design", "Report Automation", "Performance Tuning"],
+    color: "pink"
+  },
+  {
+    icon: <Brain className="text-orange-600" size={32} />,
+    title: "Analytics & Modeling",
+    skills: ["Descriptive Analysis", "Exploratory Data Analysis", "Statistical Analysis", "Predictive Modeling", "Machine Learning"],
+    color: "orange"
+  },
+  {
+    icon: <GitBranch className="text-gray-600" size={32} />,
+    title: "Version Control & Collaboration",
+    skills: ["Git", "Bitbucket", "Jira", "Confluence"],
+    color: "gray"
+  },
+  {
+    icon: <ShieldCheck className="text-red-600" size={32} />,
+    title: "Quality & Governance",
+    skills: ["Data Validation", "Data Quality Assurance", "Audit Readiness", "Process Adherence", "Issue Management (ServiceNow)"],
+    color: "red"
+  },
+  {
+    icon: <Users className="text-indigo-600" size={32} />,
+    title: "Leadership & Team Management",
+    skills: ["Team Leadership", "Mentoring", "Agile/Scrum Facilitation", "Cross-Functional Collaboration", "Project Delivery Oversight"],
+    color: "indigo"
+  },
+  {
+    icon: <TrendingUp className="text-cyan-600" size={32} />,
+    title: "Business & Process Skills",
+    skills: ["Strategic Planning", "Stakeholder Management", "Audit & Compliance", "Change Management", "Training & Development"],
+    color: "cyan"
+  }
+]
+;
 
   const getColorClasses = (color: string) => {
     const colors: { [key: string]: string } = {
@@ -105,10 +124,10 @@ const Skills = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Certifications</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              "Microsoft Power BI Certified",
+              "Databricks Fundamentals",
               "Tableau Desktop Specialist",
               "Google Analytics Certified",
-              "Azure Data Fundamentals"
+              "Machine Learning Software Foundations"
             ].map((cert, index) => (
               <div key={index} className="bg-white rounded-lg p-4 text-center shadow-md">
                 <div className="text-blue-600 font-semibold">{cert}</div>
