@@ -19,6 +19,20 @@ const Hero = () => {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fadeIn">
+          {/* Professional Photo */}
+          <div className="mb-8">
+            <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-white shadow-2xl bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center">
+              {/* Replace the src below with your actual photo */}
+              <img 
+                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                alt="Professional headshot" 
+                className="w-full h-full object-cover"
+              />
+              {/* Fallback if no image - remove this div when you add your photo */}
+              {/* <div className="text-white text-4xl font-bold">YI</div> */}
+            </div>
+          </div>
+
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Transforming Data into
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
@@ -26,7 +40,7 @@ const Hero = () => {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-4xl mx-auto leading-relaxed">
             BI & Reporting Analyst specializing in data visualization, business intelligence, 
             and actionable analytics that drive informed decision-making.
           </p>
@@ -49,7 +63,7 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-cyan-400 mb-2">5+</div>
+              <div className="text-3xl font-bold text-cyan-400 mb-2">8+</div>
               <div className="text-blue-100">Years Experience</div>
             </div>
             <div className="text-center">

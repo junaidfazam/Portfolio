@@ -4,10 +4,10 @@ import { Calendar, MapPin, Award, Users } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior BI Analyst",
-      company: "Tech Solutions Corp",
-      location: "New York, NY",
-      period: "2022 - Present",
+      title: "Senior BI and Reporting Analyst",
+      company: "TD Bank",
+      location: "Toronto, ON",
+      period: "2023 - 2024",
       description: "Lead business intelligence initiatives across multiple departments, designing and implementing advanced analytics solutions that drive strategic decision-making.",
       achievements: [
         "Developed executive-level dashboards reducing report generation time by 60%",
