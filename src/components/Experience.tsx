@@ -8,37 +8,57 @@ const Experience = () => {
       company: "TD Bank",
       location: "Toronto, ON",
       period: "2023 - 2024",
-      description: "Lead business intelligence initiatives across multiple departments, designing and implementing advanced analytics solutions that drive strategic decision-making.",
+      description: "Specialized in creating interactive dashboards and reports, focusing on risk analytics and operational efficiency improvements.",
       achievements: [
-        "Developed executive-level dashboards reducing report generation time by 60%",
-        "Implemented automated data pipelines processing 1M+ records daily",
-        "Led cross-functional team of 5 analysts on enterprise BI implementation"
+        "Collaborated with stakeholders to gather and evaluate requirements, determine scope, design wireframes and mock-ups",
+        "Migrated executive-level dashboards from excel to Tableau, increasing report usage and performance by 60%",
+        "Implemented automated data quality check in reporting solution",
+        "Leveraged Python, SQL and Power Query to analyze high-volume, complex datasets, uncovering actionable trends and risk signals"
+
+
       ],
       type: "current"
     },
     {
-      title: "BI Developer",
-      company: "DataFlow Analytics",
-      location: "San Francisco, CA",
-      period: "2020 - 2022",
-      description: "Specialized in creating interactive dashboards and reports, focusing on customer analytics and operational efficiency improvements.",
+      title: "Senior BI Developer",
+      company: "Accenture Solutions",
+      location: "Mumbai, India",
+      period: "2018 - 2021",
+      description: "Lead business intelligence initiatives across multiple departments, designing and implementing advanced analytics solutions that drive strategic decision-making.",
       achievements: [
-        "Built comprehensive customer segmentation models improving retention by 30%",
-        "Designed real-time operational dashboards for 3 manufacturing facilities",
-        "Optimized ETL processes reducing data processing time by 45%"
+        "Led cross-functional team of 5 analysts on enterprise BI implementation",
+        "Designed real-time operational PBI and Tableau dashboards for APAC Sale team",
+        "Optimized ETL processes reducing data processing time by 20%",
+        "Trained 20+ stakeholders on self-service analytics tools"
+
       ],
       type: "past"
     },
     {
-      title: "Data Analyst",
-      company: "Business Insights Inc",
-      location: "Chicago, IL",
-      period: "2018 - 2020",
-      description: "Focused on financial reporting and analysis, supporting strategic planning with data-driven insights and forecasting models.",
+      title: "BI Analyst",
+      company: "Accenture Solutions",
+      location: "Mumbai, India",
+      period: "2015 - 2018",
+      description: "Focused on business intelligence reporting and system enhancements, improving data workflows and supporting decision-making with optimized BI solutions",
       achievements: [
-        "Created automated financial reporting suite saving 25 hours weekly",
-        "Developed predictive models for budget forecasting with 95% accuracy",
-        "Trained 50+ stakeholders on self-service analytics tools"
+        "Enhanced SAP WebI reports by optimizing queries and improving visualization layouts",
+        "Upgraded and maintained OBIEE RPD (Repository) to integrate new data sources, refine business models, and improve reporting performance",
+        "Developed and optimized SAP BW process chains, streamlining data loading and transformation workflows for improved system performance",
+        "Led client calls and provided production support, addressing critical issues, gathering requirements, and ensuring smooth delivery of BI solutions"
+      ],
+      type: "past"
+    },
+        {
+      title: "Associate BI Analyst",
+      company: "Accenture Solutions",
+      location: "Mumbai, India",
+      period: "2014 - 2015",
+      description: "Supported sales production systems by resolving incidents, monitoring data load batches, and collaborating with teams to ensure reliable, accurate, and timely data availability.",
+      achievements: [
+        "Provided production system support by resolving day-to-day incident and service requests related to Sales processes.",
+        "Monitored and managed batch jobs for data loads, identifying and addressing failures to maintain data accuracy and timely availability",
+        "Collaborated with cross-functional teams to troubleshoot issues, performed root cause analysis, and implement fixes"
+        
       ],
       type: "past"
     }
@@ -127,14 +147,14 @@ const Experience = () => {
           <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl p-8 border border-blue-200">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="text-center md:text-left">
-                <h4 className="text-xl font-bold text-gray-900 mb-2">Master of Science in Data Analytics</h4>
-                <p className="text-blue-600 font-semibold mb-2">University of Data Science</p>
-                <p className="text-gray-600">Graduated: 2018 | GPA: 3.8/4.0</p>
+                <h4 className="text-xl font-bold text-gray-900 mb-2">MBA - Business Analytics</h4>
+                <p className="text-blue-600 font-semibold mb-2">Carleton University</p>
+                <p className="text-gray-600">Graduated: 2022 | GPA: 75%</p>
               </div>
               <div className="text-center md:text-left">
-                <h4 className="text-xl font-bold text-gray-900 mb-2">Bachelor of Business Administration</h4>
-                <p className="text-blue-600 font-semibold mb-2">Business University</p>
-                <p className="text-gray-600">Graduated: 2016 | Magna Cum Laude</p>
+                <h4 className="text-xl font-bold text-gray-900 mb-2">Bachelor of Engineering</h4>
+                <p className="text-blue-600 font-semibold mb-2">VTU</p>
+                <p className="text-gray-600">Graduated: 2009 | First Class</p>
               </div>
             </div>
           </div>
