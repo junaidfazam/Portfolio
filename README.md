@@ -72,8 +72,7 @@ npm run deploy
 
 2. **Enable GitHub Pages** in your repository settings:
    - Go to Settings > Pages
-   - Select "Deploy from a branch"
-   - Choose "gh-pages" branch
+  - Source: Select "GitHub Actions"
    - Click Save
 
 ### Customization
