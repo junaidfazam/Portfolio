@@ -126,8 +126,8 @@ const Skills = () => {
             {[
               "Databricks Fundamentals",
               "Tableau Desktop Specialist",
-              "Google Analytics Certified",
-              "Machine Learning Software Foundations"
+              "Machine Learning Software Foundations",
+              "Azure Data Fundamentals"
             ].map((cert, index) => (
               <div key={index} className="bg-white rounded-lg p-4 text-center shadow-md">
                 <div className="text-blue-600 font-semibold">{cert}</div>
