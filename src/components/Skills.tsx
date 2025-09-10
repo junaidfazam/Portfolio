@@ -124,9 +124,9 @@ const Skills = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Certifications</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              "Microsoft Power BI Certified",
+              "Databricks Fundamentals",
               "Tableau Desktop Specialist",
-              "Google Analytics Certified",
+              "Machine Learning Software Foundations",
               "Azure Data Fundamentals"
             ].map((cert, index) => (
               <div key={index} className="bg-white rounded-lg p-4 text-center shadow-md">
